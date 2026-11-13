@@ -2,8 +2,8 @@
 
 [English](README.en.md) · [下载](https://github.com/ling3101885821-jpg/s23-jp-6ghz/releases/tag/v0.1.0-experimental)
 
-- **6 GHz Wi-Fi 连接**：通过 JP 无线地区配置，开启所适配 SM-S9180 固件的 6 GHz Wi-Fi 连接能力。
-- **原生 6 GHz 热点选项**：在三星移动热点设置中显示 6 GHz，可保存为 WPA3 热点配置。
+- **6 GHz Wi-Fi 连接**：通过修改 JP 无线地区配置，开启所适配 SM-S9180 固件的 6 GHz Wi-Fi 连接能力。
+- **开启 6 GHz 热点选项**：在三星移动热点设置中开启 6 GHz，可保存为 WPA3 热点配置。
 - **频段与信道显示**：在 Wi-Fi 详情中显示当前连接的 2.4／5／6 GHz 频段、实际频率和主信道。
 - **收发速率显示**：实时显示 Wi-Fi 发送与接收协商速率，页面打开时每 2 秒刷新。
 - **Wi-Fi 与热点并发**：提供实验性的 5 GHz Wi-Fi 上游＋6 GHz 热点多信道并发配置。
