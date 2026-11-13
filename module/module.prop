@@ -1,0 +1,6 @@
+id=s23_jp_6ghz
+name=S23 Ultra 日本 6GHz 热点
+version=0.2-mcc-test
+versionCode=2
+author=Local device configuration
+description=开机保留JP无线地区，并关闭强制热点信道迁移，允许MCC并发试验。操作按钮沿用原生配置并保留Wi-Fi共享。5GHz上游+6GHz热点已通过手机侧验证，客户端待实测。仅适用SM-S9180当前固件。

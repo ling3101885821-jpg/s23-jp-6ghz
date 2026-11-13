@@ -1,0 +1,6 @@
+*.parcel
+*.keystore
+*.jks
+*.log
+__pycache__/
+build/

@@ -1,0 +1,6 @@
+package de.robv.android.xposed;
+import java.lang.reflect.Member;
+public final class XposedBridge {
+ public static XC_MethodHook.Unhook hookMethod(Member m, XC_MethodHook h) { return null; }
+ public static void log(String text) {}
+}
