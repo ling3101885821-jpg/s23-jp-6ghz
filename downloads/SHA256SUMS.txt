@@ -1,0 +1,3 @@
+e2a4ecac5d7834ceea5ff9e804e3ef115eb68b1f0cba7d2df591065a3d9bb25d  s23-jp-6ghz-kernelsu-0.2-mcc-test.zip
+3c206c05b9a2facead9c61d6d6cea4a818b779b744c481dac784aff2d3950314  s23-wifi6menu-0.3-test.apk
+882ffb4ca062fe62089cdfbe05d940a7c1145845d125e6087219b5456f855ee0  s23-jp-6ghz-source-v0.1.0-experimental.zip
