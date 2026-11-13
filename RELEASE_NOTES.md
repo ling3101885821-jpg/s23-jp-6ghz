@@ -1,23 +1,19 @@
-# v0.1.0-experimental — S23 JP 6 GHz / 实验版
-
 ## 中文
 
-公开打包 KernelSU 0.2-mcc-test 配置模块和 LSPosed 0.3-test 菜单 APK，附中英文安装说明、回退步骤、源码和 SHA-256。
-
-- 仅用于 SM-S9180 / S9180ZCU6EYI6_YanYu_Moded / Android 16 / One UI 8。
-- JP 开机配置、原生 6 GHz 热点选项、Wi-Fi 实际频段／主信道／协商速率显示。
-- 不清空数据；不提供 320 MHz 或 Wi-Fi 7 解锁。
-- 已验证跨重启保留及手机侧热点频率；用户报告手机连接 6 GHz Wi-Fi 成功。
-- 5 GHz 上游＋6 GHz 热点降速尚未解决，外部 6 GHz 热点客户端上网仍待验证。
-- ZIP 在 KernelSU 安装，APK 安装后在 LSPosed 仅勾选设置作用域。见 README。
+- **6 GHz Wi-Fi 连接**：通过 JP 无线地区配置，开启所适配 SM-S9180 固件的 6 GHz Wi-Fi 连接能力。
+- **原生 6 GHz 热点选项**：在三星移动热点设置中显示 6 GHz，可保存为 WPA3 热点配置。
+- **频段与信道显示**：在 Wi-Fi 详情中显示当前连接的 2.4／5／6 GHz 频段、实际频率和主信道。
+- **收发速率显示**：实时显示 Wi-Fi 发送与接收协商速率，页面打开时每 2 秒刷新。
+- **Wi-Fi 与热点并发**：提供实验性的 5 GHz Wi-Fi 上游＋6 GHz 热点多信道并发配置。
+- **重启保留配置**：开机自动应用 JP 无线配置，保留原生设置中保存的热点频段。
+- **快捷开关热点**：通过模块操作按钮，按系统保存的名称和密码启动或关闭热点，并显示实际运行频率。
 
 ## English
 
-Public packaging of the KernelSU 0.2-mcc-test configuration module and LSPosed 0.3-test Settings APK, with bilingual setup/rollback guides, source and SHA-256 checksums.
-
-- Exact target: SM-S9180 / S9180ZCU6EYI6_YanYu_Moded / Android 16 / One UI 8.
-- JP boot configuration, native 6 GHz hotspot option, actual Wi-Fi band/primary channel/negotiated-rate rows.
-- No data wipe; no 320 MHz or Wi-Fi 7 unlock.
-- Reboot persistence and phone-side hotspot frequency verified; the user reported successful 6 GHz Wi-Fi association.
-- 5 GHz uplink + 6 GHz hotspot slowdown remains unresolved. External 6 GHz hotspot-client internet access is unverified.
-- Install the ZIP in KernelSU; install the APK and scope it only to Settings in LSPosed. See README.
+- **6 GHz Wi-Fi connectivity**: Applies the JP wireless country configuration to enable 6 GHz connections on the supported SM-S9180 firmware.
+- **Native 6 GHz hotspot option**: Exposes 6 GHz in Samsung Mobile Hotspot settings, with a saved WPA3 hotspot configuration.
+- **Band and channel information**: Shows the connected 2.4/5/6 GHz band, actual frequency and primary channel in Wi-Fi details.
+- **Transmit and receive rates**: Displays negotiated Tx/Rx link rates, refreshing every two seconds while the details page is open.
+- **Concurrent Wi-Fi and hotspot**: Provides an experimental multi-channel configuration for a 5 GHz Wi-Fi uplink and a 6 GHz hotspot.
+- **Configuration across reboots**: Automatically applies the JP wireless configuration at boot and retains the hotspot band saved in native Settings.
+- **Quick hotspot control**: Starts or stops the hotspot from the module Action button using the saved name and password, and reports its actual operating frequency.
